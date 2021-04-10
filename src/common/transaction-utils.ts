@@ -9,6 +9,7 @@ import {
   BufferReader,
   deserializePostCondition,
   getAddressFromPrivateKey,
+  AuthType,
 } from '@stacks/transactions';
 import {
   ContractDeployPayload,
@@ -165,7 +166,7 @@ export const finishTransaction = async ({
   const rpcClient = new RPCClient(nodeUrl);
 
   // if sponsored, return raw tx
-  if (tx.auth.authType === 5) {
+  if (tx.auth.authType === AuthType.Sponsored) {
     return {
       txRaw,
     };
