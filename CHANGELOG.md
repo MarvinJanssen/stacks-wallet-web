@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.4.4
+
+### Patch Changes
+
+- [#1129](https://github.com/blockstack/stacks-wallet-web/pull/1129) [`1f5e24ab`](https://github.com/blockstack/stacks-wallet-web/commit/1f5e24ab18bad8d4c5d04845c38c39dff7d9eec3) Thanks [@markmhx](https://github.com/markmhx)! - This is a patch version bump to get aligned with a manual version bump that was submitted to extension builds.
+
 ## 2.4.2
 
 ### Patch Changes
